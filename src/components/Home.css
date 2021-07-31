@@ -1,0 +1,24 @@
+section {
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  footer, nav {
+    height: 10vh;
+    background-color: grey;
+  }
+  #home {
+    background-image: url('https://res.cloudinary.com/kokkieh/image/upload/v1441711699/building-925757_1920_e7zlcl.jpg');
+  }
+  #about {
+    background-image: url('https://res.cloudinary.com/kokkieh/image/upload/v1441711721/glass-909264_1920_kj77yx.jpg');
+  }
+  #portfolio {
+    background-image: url('https://res.cloudinary.com/kokkieh/image/upload/v1441711717/building-922529_1920_icicwy.jpg');
+  }
+  #contact {
+    background-image: url('https://res.cloudinary.com/kokkieh/image/upload/v1441711695/window-855371_1920_mkw8de.jpg');
+  }
+  
