@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Raleway:wght@500&display=swap');
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+     background-color: #54595F; 
+     scroll-behavior: smooth;
+     /* overflow: hidden; */
+  }
+
+nav{
+    position: fixed;
+     background: #ccebff; 
+     padding: 0px 20px;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+
+nav ul li a{
+    float: right;
+    font-size: 16px;
+    color: #1B48A3;
+    text-align: center;
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+  }
+
+  nav ul li a:hover {
+    color: #ff3300;
+  }
