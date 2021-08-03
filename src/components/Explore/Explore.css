@@ -1,0 +1,42 @@
+h3{
+    color: #1B48A3;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+  }
+
+  h4{
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  .text{  
+      font-size: 16px;
+  }
+
+  /* #explore{
+    background: #ac7339;
+  } */
+
+  .section{
+    background: #f2e6d9;
+  }
+
+  .animation{
+    top: 0%;
+    /* padding-left: 500px; */
+    /* margin: auto; */
+    display: flex;
+     left: 200%;
+    margin: 0px 0px 0px 200px;
+    width: 1000px;
+    height: 800;
+    /* padding-bottom: 100px; */
+
+    /* height: 400px;
+     width: 1050px;  */
+     /* vertical-align: middle; */
+     /* autoplay: true; 
+     infinite:true; 
+     autoplay_speed: 3000; 
+     stop_onHover: true; */
+  }
