@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+   background-color: #54595F;      
+   scroll-behavior: smooth;
+   /* overflow: hidden; */
+}
+
+header{
+  height: calc(100% - 65px);
+ -webkit-appearance: 1500px;
+ perspective: 1500px; 
+ perspective-origin: center bottom;
+}
+
+#myVideo {
+ position: absolute;
+ /* display: flex;
+ flex-direction: row; */
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ background: #54595F ;
+ /* margin: auto; */
+   min-height: 100vh; 
+ max-width: 100%; 
+ /* animation-iteration-count: infinite; */
+}
+
+.scroll-down{
+  height: 50px;
+  width: 30px;
+  border: 2px solid rgb(245, 85, 21);
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+  content: "";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  border: 2px solid rgb(245, 85, 21); 
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after{
+  top: 30%;
+  animation-delay: 3s;
+}
+
+.scroll-down::after{
+  top: 40%;
+  animation-delay: 3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
+}
+
+
+.hero{
+ position: relative;
+ background: #54595F ;
+ /* url("https://images.unsplash.com/photo-1495434951808-370bf1154920?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80")  */
+ /* no-repeat center center; */
+ /* background-size: cover; */
+ /* max-width: 20px;
+ max-height: 34px; */
+ overflow: hidden;
+ transform-origin: 50% 100%;
+ transform-style: preserve-3d;
+ min-height: 100vh; 
+ max-width: 100%;
+}
+
+.hero .overlay {
+ content: "";
+ display: block;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ opacity: 0;
+ background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0,0) 100%) ;
+} 
+
+ .slider{
+  height: 800px;
+} 
+
+.slider .slides{
+  background: #ccebff;
+  /* background-image: url('https://vcanaglobal.ga/vcana-new/wp-content/uploads/revslider/slider-1/main-banner.png'); */
+  padding-right: 10px;
+}
+
+.slider .btn{
+  margin-top: 20px;
+}
+
+h1{
+  color: #1B48A3;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+   /* font-family: 'Raleway', sans-serif;  */
+}
+
+.elementor{
+  text-align: left;
+  /* padding-left: 50px; */
+  /* padding: 4px 30px; */
+}
+
+.elementor a {
+  background-color: #1B48A3;
+  color: #FFFFFF;
+  /*  font-family: 'Poppins', sans-serif; */
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  float: right; 
+  margin: 170px 100px 15px 100px;
+  width: 600;
+  height: 400;
+}
+
+.social{
+  
+  float: right; 
+  margin: 200px 40px 15px 100px;
+  opacity: 0.9;
+  
+}
+
+.social a{
+  cursor: pointer;
+  color: #1B48A3;
+  font-size: 20px;
+}
+
+/* .slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 15%;
+   left: 15%; 
+  width: 70%;
+  opacity: 0;
+} */

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Raleway:wght@500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+ /* .section-contact h5{
+  margin-bottom: 30px;
+}     */
+
+
+section-contact{
+  background: linear-gradient(90deg, #f1e6e2 0%, #faf0ee 100%);
+  opacity: 0.8;
+ 
+}
+
+/* .row .col{
+  padding-left: 300px;
+} */
+
+ h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 30px;
+} 
+
+.language{
+  text-align: center;
+  color: #080707;
+  font-family: 'Poppins', sans-serif;
+}
+
+.texting{
+  padding-left: 50px;
+}
+/* .mycompany{
+  float: center;
+} */
+
+/* section-contact h2{
+  color: #004194;
+
+} */
