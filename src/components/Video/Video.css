@@ -1,0 +1,103 @@
+
+
+/* #myVideo {
+    position: absolute;
+    /* display: flex;
+    flex-direction: row; */
+    /* top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto; 
+    overflow: hidden;
+   min-height: 100vh; 
+    max-width: 100%;   */
+  /* }  */
+  
+  header{
+    height: calc(100% - 65px);
+   -webkit-appearance: 1500px;
+   perspective: 1500px; 
+   perspective-origin: center bottom;
+ }
+
+ .hero{
+    position: relative;
+    background: #54595F ;
+    /* url("https://images.unsplash.com/photo-1495434951808-370bf1154920?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80")  */
+    /* no-repeat center center; */
+    /* background-size: cover; */
+    /* max-width: 20px;
+    max-height: 34px; */
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform-style: preserve-3d;
+    /* min-height: 100vh; 
+    max-width: 100%; */
+  }
+  
+  .hero .overlay {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0,0) 100%) ;
+  } 
+  
+
+  .scroll-down{
+    height: 50px;
+    width: 30px;
+    border: 2px solid rgb(245, 85, 21);
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-down::before,
+  .scroll-down::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border: 2px solid rgb(245, 85, 21); 
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  
+  .scroll-down::after{
+    top: 30%;
+    animation-delay: 3s;
+  }
+  
+  .scroll-down::after{
+    top: 40%;
+    animation-delay: 3s;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      opacity: 0;
+    }
+  
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
+    }
+  }

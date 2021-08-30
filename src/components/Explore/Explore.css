@@ -1,0 +1,76 @@
+h3{
+    color: #1B48A3;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+  }
+
+  h4{
+    font-family: 'Poppins', sans-serif; 
+  }  
+    
+  .text{  
+      font-size: 16px;
+  }
+
+  /* #explore{
+    background: #ac7339;
+  } */
+
+  .section{
+    /* background: #f2e6d9; */
+    background: linear-gradient(90deg, #f1e6e2 0%, #faf0ee 100%);
+    opacity: 0.8;
+  }
+  
+  .card-panel{
+     padding-top: 0%;
+  }
+
+  .section .card-panel {
+   position: relative;
+   z-index: 1;
+  }
+
+  .section .card-panel::before {
+   content: '';
+   position: absolute;
+   /*left: 110%;
+   */width: 120%;
+   height: 100%;
+   overflow: hidden;
+   background: linear-gradient(90deg, transparent 0%, #f2e6d9 5%, #f2e6d9 100%);
+   animation: animate 10s linear forwards;
+   animation-delay: 3;
+   animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+  0%
+  {
+     left: -0%;
+  }
+  100%{
+    left: 110%;
+  }
+}
+
+  .animation{
+    /* top: 0%; */
+     padding-left: 800px; 
+    /* margin: auto; */
+    display: flex;
+     /* left: 200%; */
+    margin: 0px 0px 0px 200px;
+    width: 1700px;
+     height: 500px;
+    /* padding-bottom: 100px; */
+
+    /* height: 400px;
+     width: 1050px;  */
+     /* vertical-align: middle; */
+     /* autoplay: true; 
+     infinite:true; 
+     autoplay_speed: 3000; 
+     stop_onHover: true; */
+  }
